@@ -13,6 +13,12 @@
             <section id="topBanner">
                 <img class="icon" src="" alt="Soccer Player"/>
             </section>
+            <section id="bottomBanner">
+                <ul>
+                    <li>Question: <span class="questionNumberDisplay">0</span>/10</li>
+                    <li>Score: <span class="score">0</span></li>
+                </ul>
+            </section>
         </header>
 
         <main role="main">
@@ -32,8 +38,8 @@
                             <li><input id="answer2" class="answer" type="radio" name="option" required></input><span id="spAns2">Option3</span></li>
                             <li><input id="answer3" class="answer" type="radio" name="option" required></input><span id="spAns3">Option4</span></li>
                         </ul>
-                    </fieldset>
-                    <button id="js-submit-button" type="submit" class="submit-btn button">Submit</button>       
+                        <button id="js-submit-button" type="submit" class="submit-btn button">Submit</button> 
+                    </fieldset>      
                 </form>
             </section>
         
@@ -48,6 +54,7 @@
             <section id="totalScoreSection">
                 <h2 id="userScore">has the score out of 10</h2>
                 <p>Message about your what your total score is</p>
+                <button class="js-restart-button">Restart Quiz</button>
             </section>
         <!-- all the views have the top banner section included at the top of them-->
         </main>
